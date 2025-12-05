@@ -1,0 +1,122 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Container for Forms & Content */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Form Elements */
+form input,
+form select,
+form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #004aad;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 74, 173, 0.3);
+}
+
+/* Buttons */
+button,
+form button {
+  background-color: white;
+  color: #004aad;
+  border: 2px solid #004aad;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Error and confirmation messages */
+.error {
+  color: #b00020;
+  background: #ffe5e5;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.success {
+  color: #007f00;
+  background: #e6ffe6;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background: #004aad;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004aad;
+  color: white;
+  margin-top: 3rem;
+}
